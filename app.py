@@ -64,7 +64,7 @@ response_mapping = {
 }
 
 default_values = {
-    "Age": 54,
+    "Age": 45,
     "Gender": "F",
     "Smoking": "No",
     "Hx Smoking": "Yes",
@@ -75,10 +75,10 @@ default_values = {
     "Pathology": "Papillary",
     "Focality": "Multi-Focal",
     "Risk": "Intermediate",
-    "T": "T3a",
+    "T": "T1b",
     "N": "N1a",
     "M": "M0",
-    "Stage": "II",
+    "Stage": "III",
     "Response": "Structural Incomplete"
 }
 
