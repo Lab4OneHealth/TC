@@ -103,11 +103,11 @@ with left_col:
                 value=default_values["Age"], step=1, format="%d"
             )
         with col2:
-            # 修改性别选择框的标签可见性，从collapsed改为visible
+            
             selected = st.selectbox(
                 "Gender", categories["Gender"],
                 index=categories["Gender"].index(default_values["Gender"]),
-                label_visibility="visible"  # 这里是关键修改，确保标签可见
+                label_visibility="visible"  
             )
             input_data["Gender"] = label_encoders["Gender"].transform([selected])[0]
 
