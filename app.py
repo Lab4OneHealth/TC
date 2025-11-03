@@ -219,7 +219,7 @@ with right_col:
                 plt.figure(figsize=(8, 6))  # Width fits right column, height compressed
                 shap.plots.waterfall(
                     single_shap,
-                    max_display=20,  # Show only 8 most important features
+                    max_display=20, 
                     show=False
                 )
                 plt.tight_layout(pad=0.5)  # Minimize margins
