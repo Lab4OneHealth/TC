@@ -5,7 +5,7 @@ import shap
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Page configuration - wide layout for side-by-side arrangement
+
 st.set_page_config(page_title="Thyroid Cancer Recurrence Prediction", layout="wide")
 
 # -------------------------- Load Resources --------------------------
